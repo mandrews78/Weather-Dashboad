@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/8039d94590.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Dashboard</title>
+    <script src="./assets/js/script.js" defer></script>
 </head>
+
 <body>
-    <header>Weather Dashboard</header>
     
+    <div class="weatherapp">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="input">
+        <input type="text" class="inputValue" placeholder="Enter a city name">
+        <div class="search-button"> <input type="submit" value="Search"></div>
+    </div>
+
+    <div id="display"></div>
+
+    <tablbe>
+        <thead>
+            <tr>
+                <th>Temp</th>
+                <th>Humidity</th>
+            </tr>
+        </thead>
+        <tbody id="data-output"></tbody>
+    </tablbe>
+        
+    
+
+
+
+
 </body>
+
 </html>

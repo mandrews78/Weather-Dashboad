@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background: #696565;
+    background-image: url("/assets/Images/weatherbackground.jpg");
+    background-image: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Playfair Display', sans-serif;
+    
+
+}
+.weatherapp{
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+.input {
+    text-align: center;
+    margin: 100px;
+    
+}
+input[type="text"]{
+    height: 50px;
+    width: 250px;
+    background: white;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    border: solid black;
+    border-radius: 10px;
+
+}
+
+.display{
+    text-align: center;
+}
